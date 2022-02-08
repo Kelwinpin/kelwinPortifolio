@@ -1,0 +1,27 @@
+body{
+    display: flex;
+}
+
+header {
+    background-color:burlywood;
+}
+
+.titleHeader {
+    width: 22ch;
+    color: black;
+    animation: typing 2s steps(40), blink 0.5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+@keyframes typing {
+    from { 
+        width: 0;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent
+    }
+}
