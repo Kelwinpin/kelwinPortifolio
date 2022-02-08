@@ -1,27 +1,38 @@
 body{
     display: flex;
+    width: 1200px;
+    margin: auto;
+    flex-direction: column;
+    background-image: url(imagens/backgroundBody.png);
 }
 
 header {
-    background-color:burlywood;
+    background-color:rgb(190, 186, 181);
+    display: flex;
+    align-items: center;
+    padding: 12px;
 }
 
-.titleHeader {
-    width: 22ch;
-    color: black;
-    animation: typing 2s steps(40), blink 0.5s step-end infinite alternate;
-    white-space: nowrap;
-    overflow: hidden;
+#titleHeader {
+    text-align: center;
+    flex-grow: 1;
 }
 
-@keyframes typing {
-    from { 
-        width: 0;
-    }
+.section {
+    background-color: #fff;
+    display: flex;
 }
 
-@keyframes blink {
-    50% {
-        border-color: transparent
-    }
+#apresentation {
+    flex-direction: column;
+}
+
+#imagensDeContato{
+  flex-grow: 1;
+}
+
+footer {
+    display: flex;
+    background-color: rgb(94, 91, 91);
+    flex-direction: row-reverse;
 }
