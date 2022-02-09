@@ -1,9 +1,13 @@
+html{
+    background-image: url(imagens/backgroundBody.png); 
+}
+
 body{
     display: flex;
     width: 1200px;
     margin: auto;
     flex-direction: column;
-    background-image: url(imagens/backgroundBody.png);
+    background-color: #fff;
 }
 
 header {
@@ -16,19 +20,38 @@ header {
 #titleHeader {
     text-align: center;
     flex-grow: 1;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .section {
     background-color: #fff;
     display: flex;
+    margin-bottom: 100px;
 }
 
-#apresentation {
-    flex-direction: column;
+#apresentacion{
+    margin: 50px 25px;
+}
+
+.divImg{
+    width: 75px;
+    align-items: center;
+    text-align: center;
+}
+
+#imgTitle{
+    text-align: center;
 }
 
 #imagensDeContato{
-  flex-grow: 1;
+    margin: 100px 100px 150px 100px;
+    margin-left: 200px;
+    text-align: center;
+}
+
+#info {
+    color: grey;
+    text-justify: center;
 }
 
 footer {
